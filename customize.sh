@@ -14,5 +14,3 @@ sed -i 's/root::0:0:99999:7:::/root:$1$sg..YQiZ$PT.gnTU18zJE0/TRodj/K1:20039:0:9
 #3. Replace with JerryKuKu’s Argon
 #rm openwrt/package/lean/luci-theme-argon -rf
 
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
